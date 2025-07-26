@@ -25,14 +25,17 @@ Download the `speedtest.jar` file from the releases page.
 
 Then run one of the following:
 
-Downloads a 100MB file for a quick test : 
+#### Downloads a 100MB file for a quick test:
+```bash
 java -jar speedtest.jar --light
+```
 
-
-
-Downloads a 1GB file to test average speeds more reliably : 
+#### Downloads a 1GB file to test average speeds more reliably:
+```bash
 java -jar speedtest.jar --standard
+```
 
-
-Downloads a 10GB file to test long-term sustained bandwidth:
+#### Downloads a 10GB file to test long-term sustained bandwidth:
+```bash
 java -jar speedtest.jar --heavy
+```
