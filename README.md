@@ -25,31 +25,14 @@ Download the `speedtest.jar` file from the releases page.
 
 Then run one of the following:
 
+Downloads a 100MB file for a quick test : 
 java -jar speedtest.jar --light
 
-css
-Copy
-Edit
 
-Downloads a 100MB file for a quick test.
 
+Downloads a 1GB file to test average speeds more reliably : 
 java -jar speedtest.jar --standard
 
-css
-Copy
-Edit
 
-Downloads a 1GB file to test average speeds more reliably.
-
+Downloads a 10GB file to test long-term sustained bandwidth:
 java -jar speedtest.jar --heavy
-
-bash
-Copy
-Edit
-
-Downloads a 10GB file to test long-term sustained bandwidth.
-
-### Example Output
-
-Starting network speed test...
-Testing: 100% complete, Current speed: 16.10 MB/s
